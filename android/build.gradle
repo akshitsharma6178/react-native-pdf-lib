@@ -35,7 +35,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.tom_roush:pdfbox-android:1.8.9.1'
+    implementation 'com.tom-roush:pdfbox-android:2.0.24.0'
     implementation 'com.facebook.react:react-native:+'
+    implementation 'androidx.core:core:1.8.0'
 }
   

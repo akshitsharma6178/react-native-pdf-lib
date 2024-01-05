@@ -4,7 +4,7 @@ package com.hopding.pdflib;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 import android.util.Log;
 
 import com.facebook.react.bridge.NoSuchKeyException;
@@ -23,7 +23,7 @@ import com.tom_roush.pdfbox.pdmodel.PDPageContentStream;
 import com.tom_roush.pdfbox.pdmodel.font.PDFont;
 import com.tom_roush.pdfbox.pdmodel.font.PDType1Font;
 import com.tom_roush.pdfbox.pdmodel.font.PDType0Font;
-import com.tom_roush.pdfbox.util.PDFBoxResourceLoader;
+import com.tom_roush.pdfbox.android.PDFBoxResourceLoader;
 
 import java.io.File;
 import java.io.FileOutputStream;
